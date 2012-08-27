@@ -17,4 +17,6 @@ group :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'simplecov'
+  gem 'cucumber-rails', '>= 1.0.2', require: false
+  gem 'database_cleaner'
 end
